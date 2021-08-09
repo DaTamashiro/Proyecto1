@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*flex*/
+.padre_flex {
+    display: flex;
+    flex-direction:row;
+}
+
+.item_flex{
+    flex-direction: column;
+}
+
+/*grid index*/
+
+#grillaIndex {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px 600px;
+    grid-template-areas: "area1 area2"
+                         "area3 area4"
+                         "area5 area6"
+                         "area7 area8";
+}
+
+#cajaIndex1 {
+    background-image: url(../images/img1.jpg);
+    grid-area: area1;
+  }
+
+#cajaIndex2 {
+    background-color: #BB6BD9;
+       grid-area: area2;
+}
+
+#cajaIndex3 {
+    background-image: url(../images/img2.jpg);
+       grid-area: area3;
+}
+
+#cajaIndex4 {
+    background-color:#eea509;
+       grid-area: area4;
+}
+
+#cajaIndex5 {
+    background-image: url(../images/img3.jpg);
+    grid-area: area5;
+}
+
+#cajaIndex6 {
+    background-color: #EB5757;
+    ;
+       grid-area: area6;
+}
+
+#cajaIndex7 {
+    background-image: url(../images/img4.jpg);    
+       grid-area: area7;
+}
+
+#cajaIndex8 {
+    background-color:#56CCF2;
+       grid-area: area8;
+}
+
+ /*fin grid index*/
+
+   /*grid trabajos*/
+
+#grilla {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 300px 80px 300px 50px 300px 50px 300px;
+    grid-template-areas: "area1 area1 area1"
+                         "area2 area2 area2"
+                         "area3 area4 area5"
+                         "area6 area6 area6"
+                         "area7 area8 area9"
+                         "area10 area10 area10"
+                         "area11 area11 area11";
+    }
+
+#caja1 {
+ background-color: rgb(184, 39, 3);
+    grid-area: area1;
+}
+
+#caja2 {
+    background-color: rgb(252, 213, 206);
+    grid-area: area2;
+}
+
+#caja3 {
+    grid-area: area3;
+}
+
+#caja4 {
+    grid-area: area4;
+}
+
+#caja5 {
+    
+    grid-area: area5;
+}
+
+#caja6 {
+    background-color: #EB5757;
+    grid-area: area6;
+}
+
+#caja7 {
+    
+    grid-area: area7;
+}
+
+#caja8 {
+    
+    grid-area: area8;
+}
+
+#caja9 {
+    
+    grid-area: area9;
+}
+
+#caja10 {
+    background-color: cadetblue;
+    grid-area: area10;
+}
+
+#caja11 {
+    background-color: chartreuse;
+    grid-area: area11;
+}
+
+/*fin grid trabajos*/
+
+ /*grid trabajos*/
+
+ #grillaContacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 300px 300px; 
+    grid-template-areas: "area1 area4"
+                         "area1 area3"
+                         "area1 area3"
+                         ;
+}
+
+#cajaCon1 {
+    background-image: url(../images/img4.jpg);
+    background-color: rgb(43, 117, 228);
+    grid-area: area1;
+    
+}
+
+#cajaCon2 {
+    background-color: rgb(42, 175, 252);
+    grid-area:area2;  
+    
+
+}
+
+.cajaCon3 { 
+    background-color: rgb(42, 175, 252);
+    padding: 20px;
+  
+}
+
+#cajaCon4 {
+    background-color: rgb(42, 175, 252);
+    grid-area:area4;
+    align-self: stretch;
+}
+
+.item8 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo {
+    z-index: 1;
+    color: rgb(20, 19, 19);
+    /*position: fixed;
+    width: 800px;
+    height: 47px;*/
+    left: 70px;
+    top: 20px;
+    font-family: 'Rubik','Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    }
+ /*   
+a:link, a:active, a:visited { 
+    text-decoration: none;
+    color: #ffffff;  
+    padding: 10px;
+}*/
+
+nav {
+    font-family: 'Nunito', sans-serif;
+    font-size: large; 
+    text-align: right;  
+    position: fixed;  
+    /*right: 50px;  */
+    padding: 10px;  
+    z-index: 2;  
+    display: inline;
+    color:rgb(245, 245, 245);
+}
+
+
+h3, h4 {
+    color:rgb(121, 36, 201);
+    font-family: 'Nunito';
+}
+
+.tituloLeft{
+    position:relative;
+    bottom: 50px;
+    clear: both;
+}
+
+.titulo {
+    color:rgb(204, 50, 58);
+    font-family: 'Nunito';
+    color: #9900cc;
+    position:absolute;
+    
+}
+
+p {
+    color: rgb(22, 26, 5);
+    font-family: 'rubik';
+}
+
+.text_rigth {
+    padding: 30% 10% 0% 10%; 
+    font-size: 18px;
+}
+
+
+.colorListas {
+    color: hotpink;
+}
+
+ul { text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    width: 50%;
+}
+
+
+/* estilos home */
+
+.limpiar {
+    clear: both;
+}
+
+.secciones {
+    width: 100%;
+    height: 860px;
+}
+
+.sec_izquierda {
+   /* width: 50%;*/
+    float: left;
+}
+
+.section_home{
+   /* width: 50%;*/
+    height: 370px;
+    /*float: left;*/
+    background: #BB6BD9;
+    opacity: 0.85;
+}
+
+section div img {
+    width: 100%;
+}
+
+.centrado {
+    width: 102px;
+    padding-top: 20px;
+}
+
+.boton {   
+    width: 180px;    
+    font-size: 18px;
+    font-family: 'Nunito';
+    text-align: center;
+    background-color: #56CCF2;
+    border-radius: 50px;    
+}
+
+
+
+.boton:hover   {
+   background: mediumslateblue;
+}
+
+/* acerca*/
+.section_acerca {
+    height: 370px;
+    /*float: left;  */
+    background: #eea509;
+    opacity: 0.7;
+}
+
+/* trabajos*/
+.section_trabajos {
+    height: 370px;
+   /* float: left;  */
+    background: #EB5757;
+    opacity: 0.7;
+}
+
+/* contacto */
+
+.section_contacto{
+    
+    height: 370px;
+   /* float: left;  */
+    background: #56CCF2;
+    opacity: 0.7;
+}
+
+.btn_enviar {
+    margin-top:30px;
+}
+
+/*estilos footer*/
+
+footer {
+    font-family: 'Nunito';
+    font-size: small;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #260033;
+    padding: 20px 0px;
+    
+}
+
+table {
+    font-family: 'Nunito';
+}
+
+th {
+    font-weight: bold;    
+}
+
+.columna {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+/*media only screen*//*responsive*/
+
+@media only screen and (min-width:320px) {
+    #grillaIndex {
+        grid-template-columns: 100%;
+        grid-template-rows: 320px 320px 320px 320px;
+        grid-template-areas: "area1"
+                             "area2"
+                             "area3"
+                             "area4"
+                             "area5"
+                             "area6"
+                             "area7"
+                             "area8";
+    }
+    
+}
+
+@media only screen and (min-width:600px) {
+    #grillaIndex {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 450px 450px 450px 450px;
+        grid-template-areas: "area1 area2"
+                             "area3 area4"
+                             "area5 area6"
+                             "area7 area8";
+    }
+
+    .section_home, .section_acerca , .section_trabajos, .section_contacto {
+        height: auto;
+    }
+    
+    .nav_rigth{
+    justify-content: flex-end;    
+    }
+
+    .text_rigth {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+        #grillaIndex {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 700px 700px 700px 700px;
+        grid-template-areas: "area1 area2"
+                             "area3 area4"
+                             "area5 area6"
+                             "area7 area8";
+    }
+
+}
+
+/** PISANDO BOOSTRAP **/
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}

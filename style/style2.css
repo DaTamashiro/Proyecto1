@@ -1,0 +1,52 @@
+.navegador__lista {
+  color: hotpink;
+  position: fixed;
+  padding: 10px;
+  z-index: 2;
+  display: inline; }
+
+.navegador__item {
+  display: inline-block; }
+
+.navegador__link {
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
+  text-align: right;
+  text-decoration: none; }
+
+.boton1 {
+  background-color: orange;
+  width: 100%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  z-index: 2; }
+  .boton1__nombre {
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center; }
+  .boton1__descrip {
+    font-size: 12px;
+    font-family: 'Nunito';
+    text-align: center; }
+
+.footer__copy {
+  font-family: 'Nunito';
+  font-size: small; }
+
+.titulo1 {
+  background-color: #EB5757;
+  width: 100%;
+  z-index: 2; }
+  .titulo1__nombre {
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    text-align: center; }
+  .titulo1__descrip {
+    font-size: 12px;
+    font-family: 'Nunito';
+    text-align: center; }
