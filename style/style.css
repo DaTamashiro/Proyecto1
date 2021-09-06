@@ -186,10 +186,7 @@
 
 .logo {
     z-index: 1;
-    color: rgb(20, 19, 19);
-    /*position: fixed;
-    width: 800px;
-    height: 47px;*/
+    color: #ffffff;
     left: 70px;
     top: 20px;
     font-family: 'Rubik','Nunito';
@@ -198,19 +195,12 @@
     font-size: 40px;
     line-height: 47px;
     }
- /*   
-a:link, a:active, a:visited { 
-    text-decoration: none;
-    color: #ffffff;  
-    padding: 10px;
-}*/
-
+ 
 nav {
     font-family: 'Nunito', sans-serif;
     font-size: large; 
     text-align: right;  
     position: fixed;  
-    /*right: 50px;  */
     padding: 10px;  
     z-index: 2;  
     display: inline;
@@ -276,14 +266,11 @@ img {
 }
 
 .sec_izquierda {
-   /* width: 50%;*/
-    float: left;
+   float: left;
 }
 
 .section_home{
-   /* width: 50%;*/
     height: 370px;
-    /*float: left;*/
     background: #BB6BD9;
     opacity: 0.85;
 }
@@ -315,7 +302,6 @@ section div img {
 /* acerca*/
 .section_acerca {
     height: 370px;
-    /*float: left;  */
     background: #eea509;
     opacity: 0.7;
 }
@@ -323,7 +309,6 @@ section div img {
 /* trabajos*/
 .section_trabajos {
     height: 370px;
-   /* float: left;  */
     background: #EB5757;
     opacity: 0.7;
 }
@@ -333,7 +318,6 @@ section div img {
 .section_contacto{
     
     height: 370px;
-   /* float: left;  */
     background: #56CCF2;
     opacity: 0.7;
 }
@@ -426,3 +410,28 @@ th {
     padding-left: 0;
     padding-right: 0;
 }
+
+.bg-light {
+    background-color: #000000!important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #808080;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
